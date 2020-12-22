@@ -200,3 +200,16 @@
 54006|||Unencrypted v2 access tokens are not supported for first party applications that support consumer accounts. The resource must add a certificate to the onboarding portal to encrypt tokens.
 54007|||Method not supported for IDP OAuth2 Federation.
 54008|||Multi-Factor authentication is required and the credential used ({credentialName}) is not supported as a First Factor. Contact your administrator for more information.
+60007|||X509Certificate does not expose a private key or isn't an RSA private key.
+65001|||The user or administrator has not consented to use the application with ID '{identifier}'{namePhrase}. Send an interactive authorization request for this user and resource.
+65002|||Consent between first party application '{applicationId}' and first party resource '{resourceId}' must be configured via preauthorization - applications owned and operated by Microsoft must get approval from the API owner before requesting tokens for that API.
+65004|||User declined to consent to access the app.
+65005|||The application '{name}' asked for scope '{scope}' that doesn't exist.
+65006|||Resource '{resourceId}' had no entitlements matching required permissions configured on the required resource access for client '{clientId}'. Requested permission IDs: '{permissionId}'. This is a problem with one or more invalid permission ids on the client RRA configuration or the resource entitlement configuration.
+65007|||Client '{clientId}' required resource access configuration has changed and therefore the request could not be completed. Please try again.
+67001|||The resource '{resourceId}' is not a valid protected resource.
+67002|||User consent is required to create a new delegation or extend an expired delegation. NameId: {claimId} IdentityProvider: {idp} Actor: {resourceId} RequestorPrincipal: {appId}({appName}).
+67003|||The client '{appId}'({appName}) is not a valid service identity.
+67006|||The service identity '{appId}'({appName}) is not trusted for delegation.
+67007|||Unknown consent value '{value}'. Valid values are 'AdministratorConsentProvided', 'UseExistingUserConsent', and 'UserConsentProvided'.
+69998|||OfficeS2S delegation redemption scenarios are not supported for resource '{resourceId}'.
