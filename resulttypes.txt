@@ -1,3 +1,7 @@
+#All are unchanged except code 0, which is not an error code. 
+#Live data for error codes can be obtained here: https://login.microsoftonline.com/error
+#this list is an enumeration of that web resource (i.e. brute forcing all values between 0 and 99999)
+0||| (@acalarch note Success) No specific error message for this error code  
 40002|||The identity provider returned an error. The status returned was '{status}' and the message was '{message}'.
 40003|||A required token was not emitted by an external Identity Provider.
 40004|||A required token was not emitted by an external Identity Provider.
