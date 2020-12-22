@@ -213,3 +213,43 @@
 67006|||The service identity '{appId}'({appName}) is not trusted for delegation.
 67007|||Unknown consent value '{value}'. Valid values are 'AdministratorConsentProvided', 'UseExistingUserConsent', and 'UserConsentProvided'.
 69998|||OfficeS2S delegation redemption scenarios are not supported for resource '{resourceId}'.
+70000|||Provided grant is invalid or malformed.
+70001|||Application identifier is not provided.
+70002|||Client application name '{appName}' is not valid or the credentials used to authenticate the client could not be understood by the server.
+70003|||The app requested an unsupported grant type '{type}'.
+70004|||The app requested an invalid redirect URI '{uri}'. The redirect address specified by the client does not match any configured addresses.
+70005|||'The application requested an unsupported response type '{type}' when requesting a token.
+70006|||Internal use
+70007|||The application requested an unsupported mode '{mode}' when requesting a token.
+70008|||The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource.
+70009|||Unable to complete OAuth2 IdP's sign in. The 'state' parameter could not be validated.
+70010|||Unable to complete OAuth2 IdP's sign in. The 'state' parameter does not match the expected value.
+70011|||The provided request must include a 'scope' input parameter. The provided value for the input parameter 'scope' is not valid. The scope {scope} is not valid.{detailsPhrase}
+70012|||A server error occurred while authenticating an MSA (consumer) user.
+70013|||The '{paramName}' request parameter is not supported.
+70014|||The '{paramName}' request parameter is not supported.
+70015|||The '{paramName}' request parameter is not supported.
+70016|||OAuth 2.0 device flow error. Authorization is pending. Continue polling.
+70017|||Authorization declined.
+70018|||Invalid verification code.
+70019|||Verification code expired.
+70020|||The provided value for the input parameter 'device_code' is not valid. This device code has expired.
+70031|||Remote authentication session is in a bad state.
+70033|||The remote auth session with this device code has already been approved.
+70034|||The remote auth session with this device code has already been denied.
+70035|||Remote auth session with this device code doesn't exist.
+70036|||Unsupported remote auth session state.
+70037|||Incorrect challenge response provided. Remote auth session denied.
+70039|||The remote auth session with this device code has expired.
+70041|||Unable to complete OAuth2 IdP's sign in. The 'nonce' claim does not match the expected value.
+70043|||The refresh token has expired or is invalid due to sign-in frequency checks by conditional access. The token was issued on {issueDate} and the maximum allowed lifetime for this request is {time}.
+70044|||The session has expired or is invalid due to sign-in frequency checks by conditional access.
+70071|||Invalid requested token type: {type}.
+70101|||Internal use
+75001|||An exception occurred while parsing a SAML binding message.
+75005|||The request is not a valid SAML 2.0 protocol message.
+75008|||Received SAML request with an unexpected destination '{actualDest}'. Expected one of '{validDests}'.
+75011|||Authentication method '{usedMethod}' by which the user authenticated with the service doesn't match requested authentication method '{requestedMethod}'. Contact the {appName} application owner.
+75016|||The SP name qualifier '{name}' is not valid.
+75019|||A domain hint can be specified either in the AuthnRequest or as a query string parameter, but not both.
+75020|||Non-retryable error has occurred.
