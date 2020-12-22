@@ -1,3 +1,13 @@
+40002|||The identity provider returned an error. The status returned was '{status}' and the message was '{message}'.
+40003|||A required token was not emitted by an external Identity Provider.
+40004|||A required token was not emitted by an external Identity Provider.
+40008|||There was an unexpected error from the external identity provider.
+40009|||The identity provider returned an error.
+40010|||The identity provider has failed with a transient error.
+40013|||Social IDP MicroService Federation disabled.
+40014|||Federated Identity Provider is unavailable.
+40015|||The identity provider returned an error.
+40016|||The Identity Provider returned an error.
 50000|||There was an error issuing a token or an issue with our sign-in service.
 50001|||The resource is disabled or the resource named could not be found. This can happen if the application has not been installed by the administrator of the tenant, or if the resource principal was not found in the directory or is invalid due to a typo.
 50002|||This tenant isn't supported for this authentication method yet.
