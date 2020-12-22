@@ -2,6 +2,16 @@
 #Live data for error codes can be obtained here: https://login.microsoftonline.com/error
 #this list is an enumeration of that web resource (i.e. brute forcing all values between 0 and 99999)
 0||| (@acalarch note Success) No specific error message for this error code  
+16000|||Either multiple user identities are available for the current request or selected account is not supported for the scenario.
+16001|||Active accounts must be logged out first.
+16002|||Application requested to sign out of a user session which does not exist.
+16003|||The user account does not exist in the directory or the user hasn't been explicitly added to the tenant. To sign into this application, the account must be added to the directory.
+17001|||Protected credential key can not be decoded.
+17002|||Credential key can not be protected.
+17003|||User key ({keyType}) could not be provisioned.
+17004|||Protected credential key can not be decoded.
+18000|||Cannot decrypt auth ticket with key version '{version}'.
+18001|||Cannot decrypt buffer because of a HMAC mismatch.
 40002|||The identity provider returned an error. The status returned was '{status}' and the message was '{message}'.
 40003|||A required token was not emitted by an external Identity Provider.
 40004|||A required token was not emitted by an external Identity Provider.
