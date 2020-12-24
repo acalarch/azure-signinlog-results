@@ -1,7 +1,7 @@
 #All are unchanged except code 0, which is not an error code. 
 #Live data for error codes can be obtained here: https://login.microsoftonline.com/error
 #this list is an enumeration of that web resource (i.e. brute forcing all values between 0 and 99999)
-0||| (@acalarch note Success) No specific error message for this error code  
+0|||No specific error message for this error code
 16000|||Either multiple user identities are available for the current request or selected account is not supported for the scenario.
 16001|||Active accounts must be logged out first.
 16002|||Application requested to sign out of a user session which does not exist.
@@ -12,6 +12,46 @@
 17004|||Protected credential key can not be decoded.
 18000|||Cannot decrypt auth ticket with key version '{version}'.
 18001|||Cannot decrypt buffer because of a HMAC mismatch.
+20001|||The sign-in response message does not contain an issued token.
+20002|||An error occurred while attempting to export Federation Metadata.
+20012|||An error occurred when we tried to process a WS-Federation message. The message was invalid.
+20024|||Federation metadata retrieval failed after multiple retries.
+20033|||The actual message content is runtime specific. Please see returned exception message for details.
+20034|||Non-retryable error has occurred.
+25008|||Unable to parse assertion.
+26000|||The provided access grant requires interaction.
+27000|||Error when processing DeviceAuthRedirect request.
+28000|||Provided value for the input parameter scope is not valid because it contains more than one resource. Scope {scope} is not valid.
+28001|||Provided request must include a 'scope' input parameter.
+28002|||Provided value for the input parameter scope '{scope}' is not valid when requesting an access token. Please specify a valid scope.
+28003|||Provided value for the input parameter scope cannot be empty when requesting an access token using the provided authorization code. Please specify a valid scope.
+28004|||The provided value for the input parameter 'scope' exceeded the number of scopes allowed. The scope {scope} is not valid.
+28005|||The provided value for the input parameter 'actionid' was invalid.
+28006|||The provided value for the input parameter 'pageid' was invalid.
+28007|||The parameters provided in the request are incorrect or missing.
+29000|||Invalid signing key for SSH certificate
+29001|||User is missing UPN or email
+29002|||Missing Proof of Possession key
+29003|||Proof of Possession key is invalid
+29004|||Proof of Possession key type is not supported
+29005|||The token scenario {tokenScenario} is invalid.
+29006|||Client is missing application principal ID (Client ID) in tenant {tenantId}
+29007|||The permission (scope) list {scopeListString} is missing user_impersonation
+29008|||The resource \"Microsoft Azure Linux Virtual Machine Sign-In\" ({resourceUrl}) is required for SSH certificate token request
+29100|||A transient error has occurred. Please try again.
+29200|||QR Code requested. Generate QR code and display on UX page for interactive sign-ins.
+29201|||Invalid QR Code request. Client Id ({clientId}) or target client Id ({targetClientId}) is invalid.
+29202|||Invalid scope and response_type request parameters. scope=qrcode can only be used with response_type=none.
+29203|||Invalid target_client_id '{targetClientId}' argument value.
+29204|||Failed to write QR Code token to Store.
+29205|||Generated QR Code string has exceeded maximum supported length.
+29206|||Invalid QR Code redemption request. Client Id ({clientId}) is invalid.
+29207|||Error processing session data. QR Code is either invalid or expired.
+29208|||Error processing session data. QR Code was already redeemed.
+29209|||QR Code feature is not enabled for the tenant '{tenantId}'.
+29210|||QR Code sign-in is disabled via user credential policy.
+29211|||QR Code sign-in is not supported for passthrough users.
+29212|||QR Code sign-in is not supported for consumer user scenarios.
 40002|||The identity provider returned an error. The status returned was '{status}' and the message was '{message}'.
 40003|||A required token was not emitted by an external Identity Provider.
 40004|||A required token was not emitted by an external Identity Provider.
@@ -253,3 +293,138 @@
 75016|||The SP name qualifier '{name}' is not valid.
 75019|||A domain hint can be specified either in the AuthnRequest or as a query string parameter, but not both.
 75020|||Non-retryable error has occurred.
+80001|||No Microsoft Azure AD Connect Authentication Agent was found. Make sure that your environment is configured correctly. If your directory is set for pass-through authentication, make sure that your Microsoft Azure AD Connect Authentication Agent is online.
+80002|||Internal error. Password validation request timed out. We were unable to either send the authentication request to the internal Hybrid Identity Service.
+80003|||Unknown status returned from on-prem password validator.
+80005|||An unknown error occurred while processing the response from the Authentication Agent.
+80006|||Invalid on-prem password validation configuration: request URL must be secure over https.
+80007|||The Authentication Agent is unable to validate user's password. Check the agent logs for more info and verify that Active Directory is operating as expected.
+80010|||Cannot encrypt with key identifier '{key}'. The Authentication Agent is unable to decrypt password.
+80011|||Unexpected error retrieving password encryption keys.
+80012|||Your account has time restrictions that keep you from signing in right now.
+80013|||The authentication attempt could not be completed due to time skew (time/date difference) between the machine running the authentication agent and AD.
+80014|||Validation request responded after maximum elapsed time exceeded.
+80015|||Validation request budget exceeded.
+80016|||Validation request failed - unable to signal Authentication Agent.
+80017|||An error occurred while decrypting user credentials. Check your Microsoft Azure AD Connect Authentication Agent logs for more information.
+80018|||Unauthorized or forbidden access of encryption keys.
+81001|||Service ticket size exceeded the maximum allowed.
+81004|||Kerberos authentication failed.
+81005|||Authentication package is not supported.
+81006|||No authorization header was found, returning 401 WWW-Authenticate.
+81007|||Tenant is not enabled for DesktopSSO.
+81008|||Failed to validate Kerberos ticket.
+81009|||Unable to validate the user's Kerberos ticket, the authorization header value is not formatted correctly.
+81010|||Seamless SSO failed because the user's Kerberos ticket has expired or is invalid.
+81011|||Failed to find user by on-premise SID in the user's Kerberos ticket.
+81012|||The user trying to sign in to Azure AD is different from the user signed into the device.
+81013|||Failed to lookup the user whose kerberos ticket was used to login.
+81014|||The DesktopSSO auth token has expired.
+81015|||Rejecting DesktopSSO Kerberos ticket as it was obtained through delegation. Delegated Kerberos ticket does not originate from user directly. Please contact your tenant administrator to disable delegation on the AZUREADSSOACC account.
+90000|||Internal use
+90002|||Tenant '{tenant_name}' not found. This may happen if there are no active subscriptions for the tenant. Check to make sure you have the correct tenant ID. Check with your subscription administrator.
+90004|||The request is not properly formatted.
+90005|||Unable to complete request. The request was invalid since SID and login_hint cannot be used together.
+90006|||A transient error has occurred. Please try again.
+90007|||Bad Request. The passed session ID cannot be parsed.
+90008|||The user or administrator has not consented to use the application with ID '{appId}'({appName}). This happened because application is misconfigured: it must require access to Microsoft Graph by specifying at least 'Sign in and read user profile' permission.
+90009|||Application '{appId}'({appName}) is requesting a token for itself. This scenario is supported only if resource is specified using the GUID based App Identifier.
+90010|||Unable to create {algoName} algorithm.
+90012|||This request has timed out.
+90013|||Invalid input received from the user.
+90014|||The required field '{name}' is missing from the credential. Ensure that you have all the necessary parameters for the login request.
+90015|||Requested query string is too long.
+90016|||Invalid access token. Required claim is missing.
+90019|||No tenant-identifying information found in either the request or implied by any provided credentials.
+90020|||The SAML 1.1 Assertion is missing ImmutableID of the user.
+90022|||Principal name format is invalid for '{name}'. Expected format: name[/instance][@realm]. The principal name is required, host and realm are optional and may be set to null.
+90023|||Invalid STS request.
+90024|||A transient error has occurred. Please try again.
+90025|||Request processing has exceeded gateway allowance.
+90026|||Hostname contains an invalid wildcard '*' character.
+90028|||Principal name format is invalid for name '{name}'. Primary component of the name is required.
+90029|||The realm '{name}' is a Unicode domain name. Domain names of this form are not supported.
+90030|||A transient error has occurred. Try again after some time.
+90031|||A transient error has occurred. Try again after some time.
+90032|||A transient error has occurred. Try again after some time.
+90033|||A transient error has occurred. Please try again.
+90035|||Service is temporarily unavailable. Please retry later.
+90036|||An unexpected, non-retryable error stemming from the directory service has occured.
+90037|||Non-retryable error has occurred.
+90038|||Tenant '{tenant_name}' request is being redirected to the National Cloud '{cloud}'.
+90039|||Service is temporarily unavailable. Please retry later.
+90040|||A non-retryable error has occurred.
+90041|||A transient error has occurred. Please try again.
+90042|||National Cloud Name is missing in the postback request.
+90043|||OAuth2 grant was issued by National Cloud STS.
+90044|||National Cloud Request Process Switched off.
+90045|||Service is too busy. Please try again later.
+90046|||Internal use
+90047|||Internal use
+90049|||Application could not be found.
+90050|||Response content length from external IdP exceeds supported limit.
+90051|||Invalid Delegation Token. Invalid national Cloud ID ({cloudId}) is specified.
+90052|||Actual message content is runtime specific. Please see returned exception message for details.
+90053|||Internal use
+90055|||The server has terminated the request due to excessive request rate. Please wait a few seconds and try again.
+90056|||Requested resource cannot be found.
+90057|||Server encountered an internal problem.
+90058|||Service is temporarily unavailable. Please retry later.
+90059|||HealthInfoController Failed with the following Exception: {ex}
+90061|||A transient error has occurred. Please try again.
+90072|||User account '{user}' from identity provider '{idp}' does not exist in tenant '{tenant}' and cannot access the application '{application}'({appName}) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with a different Azure Active Directory user account
+90073|||Invalid Fairfax Gateway Redirect.
+90081|||An error occurred when the service tried to process a WS-Federation message. The message was invalid.
+90082|||Authentication policy '{name}' selected for the request is not currently supported.
+90083|||Request is unsupported.
+90084|||Guest accounts are not allowed for this site.
+90085|||The service is unable to issue a token because the company object hasn't been provisioned yet.
+90086|||The user DA token is expired.
+90087|||An error occurred while creating the WS-Federation message from the URI.
+90088|||Authentication failed due to email address domain is not in allowed domains list for identity provider.
+90089|||User token should not be used in App on behalf of flow.
+90090|||A transient error has occurred. Please try again.
+90091|||A transient error has occurred. Please try again.
+90092|||Non-retryable error has occurred.
+90093|||Actual message content is runtime specific. Please see returned exception message for details.
+90094|||Administrator consent is required. The actual message content is runtime specific. Please see returned exception message for details.
+90095|||Actual message content is runtime specific. Please see returned exception message for details.
+90096|||Admin consent request sent for processing.
+90097|||An error has occured during admin consent processing.
+90098|||An unexpected approval request ID was provided.
+90099|||The application '{appId}' ({appName}) has not been authorized in the tenant '{tenant}'. Applications must be authorized to access the customer tenant before partner delegated administrators can use them.
+90100|||{name} parameter is empty or not valid.
+90101|||The supplied data isn't a valid email address. Please provide it in the format someone@example.com
+90102|||'{name}' value must be a valid absolute URI.
+90107|||The request is not valid. Make sure your data doesn't have invalid characters.
+90112|||Application identifier is expected to be a GUID.
+90114|||The specified bulk AADJ token expiration timestamp will cause an expired token to be issued.
+90115|||Code/npotc parameter is not allowed together with password.
+90116|||{method} request is made, while POST is the only supported verb.
+90117|||Invalid request.
+90119|||The user code is null or missing.
+90120|||This request was already authorized or declined.
+90121|||Invalid empty request.
+90122|||User identifier is not present.
+90123|||The token can't be issued because the identity or claim issuance provider denied the request. Response code: {errorCode}.
+90124|||{resConstant} '{resourceId}' {resourceName} is not supported over the /common or /consumers endpoints. Please use the /organizations or tenant-specific endpoint.
+90125|||{userName} isn't in our system. Make sure you entered the user name correctly.
+90126|||User Type is not supported on this endpoint. The system can't infer the user's tenant from the user name: {userName}
+90128|||Unable to load OptIn store for user.
+90129|||{resConstant} '{resourceId}' {resourceName} has a configured token version of '1' and is not supported over the /common or /consumers endpoints.
+90130|||{appConstant} '{appId}' {appName} is not supported over the /common or /consumers endpoints. Please use the /organizations or tenant-specific endpoint.
+90131|||Invalid ambiguous request. sid cannot be used with prompt {prompt}.
+90132|||The provided value for the input parameter 'device_code' is not valid. Device codes supporting the personal Microsoft Account sign-in audience can only be used for v2 common or consumers tenants.
+90133|||Device Code flow is not supported under /common or /consumers endpoint.
+90134|||Retrieving claims from identity provider '{idp}' failed.
+90135|||Token issuance cannot proceed because user declined CMSI.
+90136|||Device Code flow is not supported for Confidential Clients.
+90137|||Token issuance cannot proceed because user declined consent approval to release their profile information.
+90150|||Failed to read request.
+90160|||An internal error occurred while attempting to remediate the user.
+90170|||An internal error occured while attempting to proxy binding redirect request
+90201|||Non-retryable error has occurred.
+90202|||A transient error has occurred. Please try again.
+90401|||Access denied.
+90500|||Tenant belongs to fault domain {domain}.
+90501|||Tenant ({name} ({identifier})) request is being redirected to USGov
