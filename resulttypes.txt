@@ -446,3 +446,88 @@
 100016|||Regional Cache Auth Pipeline missing Signing credentials
 100017|||There was an error issuing a token or an issue with our sign-in service.
 100018|||The regional cache auth requests that expects confirmation (cnf) claim in the token response are forbidden.
+120000|||Incorrect password.
+120001|||New password doesn't meet complexity requirements. Passwords can't contain user ID, and need to be 8-16 characters long, with at least 3 of the following: uppercase letters, lowercase letters, numbers, and symbols.
+120002|||New password doesn't meet complexity requirements. Passwords can't contain user ID, and need to be 8-16 characters long, with at least 3 of the following: uppercase letters, lowercase letters, numbers, and symbols.
+120003|||New password doesn't meet complexity requirements. Passwords can't contain user ID, and need to be 8-16 characters long, with at least 3 of the following: uppercase letters, lowercase letters, numbers, and symbols.
+120004|||New password doesn't match the password complexity requirements of the user's company's OnPrem Active Directory.
+120005|||Password was successfully updated, but servers take time to catch up. Please try signing in again in a few minutes.
+120006|||Password change request got interrupted. Check if the password got updated, else try again.
+120012|||User's organization does not allow them to change their password themselves through AAD.
+120013|||Password change failed due to connectivity issues trying to write to user's onprem AD. Try again in a few minutes.
+120014|||User account is either disabled or temporarily locked by user's organization.
+120015|||Password change failed due to user account misconfiguration.
+120016|||User not found.
+120017|||Operation not supported.
+120018|||New password does not comply with the policy. The password is too common.
+120019|||New password contains a word, phrase, or pattern that is banned by a policy in user's organization.
+120020|||Change user password operation failed.
+121000|||Non-retryable error has occurred.
+121003|||User's organization does not allow them to change their password themselves through AAD.
+130001|||Signature key ID is not provided.
+130004|||UserPrincipal doesn't have the NGC ID key configured.
+130005|||NGC key signature verification failed.
+130006|||The NGC transport key isn't configured on the device.
+130007|||The device is disabled.
+130008|||Device referenced by the NGC key is not found.
+130009|||Device key was found weak.
+130500|||Phone sign in was blocked due to User Credential Policy.
+130501|||Sign in was blocked due to User Credential Policy.
+130502|||Temporary Access Pass sign in was blocked due to User Credential Policy.
+130503|||Your Temporary Access Pass is incorrect. If you don't know your pass, contact your administrator.
+130504|||Your Temporary Access Pass has expired. Contact your administrator to obtain a new pass.
+130505|||Your one-time Temporary Access Pass has been redeemed. Contact your admin to get a new pass.
+131000|||PublicIdentifier has an invalid GUID.
+131001|||A transient error has occurred. Please try again.
+131002|||Non-retryable error has occurred.
+131003|||A transient error has occurred. Please try again.
+131005|||Phone Entry not found during GetOneTimeCode request.
+131006|||Public Identifier SAS Authentication has encountered a problem.
+131008|||Trying to create credential from unvalidated PIA data.
+131009|||Phone Number signin is not enabled for this tenant.
+131010|||User not allowed by policy conditions.
+131011|||A invalid input was entered.
+131012|||This attempt to sign in has been throttled.
+131100|||User account has to be a resource account to request a 'resource_account' grant type.
+131101|||Resource Account key is malformed.
+131102|||Resource Account key signature verification failed.
+135000|||Fido signature verification failed.
+135001|||UserPrincipal doesn't have the key ID configured.
+135002|||Fido key does not have authenticator data.
+135003|||Fido assertion verification failed. Invalid gesture provided.
+135004|||Invalid postBackUrl parameter.
+135005|||Invalid cancelUrl parameter.
+135006|||Invalid resumeUrl parameter.
+135007|||Client data type is not valid.
+135008|||Relying Party Origin is not valid.
+135009|||Flow Token Scenario must be login scenario.
+135010|||UserPrincipal doesn't have the key ID configured.
+135011|||Device used during the authentication is disabled.
+135012|||UserObjectId from the UserHandle does not match with UserPrincipal UserObjectId.
+135013|||Invalid UserHandle prefix.
+135014|||Invalid UserHandle length.
+135015|||The FIDO exclude list was not a valid JSON blob.
+135016|||FIDO sign-in is disabled via policy.
+135017|||Unexpected Signature Counter received from authenticator.
+135018|||Invalid challenge received from fido assertion.
+135019|||Expired Challenge received from Fido assertion.
+135020|||Invalid Fido assertion.
+135021|||Invalid UserHandle prefix.
+135022|||Redirect uri provided by MSA is not valid.
+140001|||The session key is not valid.
+140002|||Key not found
+160011|||Selected user account was invalid.
+160021|||Application requested a user session which does not exist.
+165000|||Actual message content is runtime specific. Please see returned exception message for details.
+165001|||Actual message content is runtime specific. Please see returned exception message for details.
+165002|||Actual message content is runtime specific. Please see returned exception message for details.
+165003|||Actual message content is runtime specific. Please see returned exception message for details.
+165004|||Actual message content is runtime specific. Please see returned exception message for details.
+165900|||Invalid request.
+180001|||Cannot encrypt auth ticket with key version '{version}'.
+180002|||Cannot decrypt buffer with key version '{version}'.
+200000|||User object type ('{type}') not expected.
+200001|||Authorization code redemption cannot be forked.
+200121|||Unsupported WS-Federation message of type '{messageType}'.
+200122|||Invalid WS-Federation message. {paramName} parameter is required.
+219000|||Cannot open pfx. Pfx bytes or password is wrong.
