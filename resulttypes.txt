@@ -428,3 +428,21 @@
 90401|||Access denied.
 90500|||Tenant belongs to fault domain {domain}.
 90501|||Tenant ({name} ({identifier})) request is being redirected to USGov
+100001|||The Regional Cache Auth Service fails to retrieve the global signing key.
+100002|||Non-retryable error has occurred in regional cache.
+100003|||Timeout occurred in request to global sts.
+100004|||Empty or Error response from Global Sts when called in by Regional Cache Auth instance.
+100005|||Regional Cache Auth instance is not allowed to issue a token for this environment.
+100006|||Regional Cache Auth Service token requests for audience App that requires custom signing keys or that has claims mapping policy are forbidden.
+100007|||Regional Cache Auth Service token requests for audience App that is not MSI are forbidden.
+100008|||Regional Cache Auth Service token requests for audience App that has opted in for a PFT token is forbidden.
+100009|||Regional Cache Auth Service token requests for flows that require encrypted tokens are forbidden.
+100010|||App specific discovery requests for Regional Cache Auth Service are forbidden.
+100011|||Tenant Domain Name specific discovery requests for Regional Cache Auth Service are forbidden.
+100012|||MSAonly tenant specific discovery requests for MSA tenant for Regional Cache Auth Service are forbidden.
+100013|||The current discovery keys requests scenarios for Regional Cache Auth Service are forbidden.
+100014|||Force cache flow parameter was specified as true but no cached response was found
+100015|||Regional Cache Auth Pipeline miss StsTenant
+100016|||Regional Cache Auth Pipeline missing Signing credentials
+100017|||There was an error issuing a token or an issue with our sign-in service.
+100018|||The regional cache auth requests that expects confirmation (cnf) claim in the token response are forbidden.
