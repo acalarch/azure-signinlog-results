@@ -531,3 +531,101 @@
 200121|||Unsupported WS-Federation message of type '{messageType}'.
 200122|||Invalid WS-Federation message. {paramName} parameter is required.
 219000|||Cannot open pfx. Pfx bytes or password is wrong.
+220000|||Authenc: cache value is expired. Date: {expectedTime}, Now: {currentTime}.
+220025|||Encryption key {version} not found.
+220050|||The specified encryption key version override {num} was not found in the list of keys.
+220100|||Authenc decryption failed.
+220200|||Authenc incorrect version.
+220450|||The Chrome WebView version is not supported.
+220501|||Unable to download CRL. Invalid or no response from CRL source {source}.
+221000|||The resource is not configured to accept device-only tokens.
+230000|||Internal use
+230002|||Internal use
+230003|||Internal use
+230004|||Internal use
+230005|||Internal use
+230006|||Internal use
+230007|||Internal use
+230008|||Internal use
+230009|||Internal use
+230010|||Internal use
+230011|||Internal use
+230012|||Internal use
+230013|||Internal use
+230014|||Internal use
+230015|||Internal use
+230016|||Internal use
+230017|||CCS couldn't find valid user data. Data could be missing, expired or invalid.
+230018|||Internal use
+230019|||Internal use
+230020|||Internal use
+230021|||Internal use
+230022|||Internal use
+230023|||Internal use
+230024|||Empty cached credential cert list or failed to find valid cached credential cert.
+230025|||Internal use
+230026|||Internal use
+230027|||Internal use
+230028|||Internal use
+230029|||Internal use
+230030|||Internal use
+230031|||Internal use
+230032|||User's mailbox has exceeded maximum mailbox size.
+230033|||Internal use
+230034|||Internal use
+230035|||Internal use
+230036|||Internal use
+230037|||Required auth methods from cached token are not satisfied.
+230038|||Retrieved token with unsupported auth methods (amr).
+230039|||Exchange Api Error.
+230040|||Failed to load key from Torus.
+230041|||Failed to load cert from machine.
+230042|||Cannot find Service Key in cache.
+230043|||Cannot find public cert shared by partners in cache.
+230044|||Cannot find private cert owned by CCS in cache.
+230045|||Password Cred not retrieved.
+230046|||SDS BEToBEMisroute error
+230047|||SDS ErrorInternalServerError error
+230048|||SDS ApplicationThrottled error
+230049|||SDS ErrorADUnavailable error
+230050|||SDS ResourceUnhealthy error
+230051|||SDS ErrorItemNotFound error
+230052|||SDS ErrorTooManyObjectsOpened error
+230053|||SDS ErrorMailboxQuotaExceeded error
+230054|||SDS MailboxNotEnabledForRESTAPI error
+230055|||SDS ErrorConnectionFailed error
+230056|||SDS RequestBroker--ParseUri error
+230057|||SDS ErrorADOperation error
+230058|||SDS ErrorDataSourceOperation error
+230059|||SDS ErrorInternalServerTransientError error
+230060|||SDS ErrorInvalidProperty error
+230061|||Could not get enforcement event successfully
+230062|||Presented or requested primary refresh token could not be supported.
+230063|||Remote forest discovery is not supported on restricted forests.
+230064|||Exchange Api Error returned by SDS when tenant guid not found while storing tokens.
+230065|||Exchange Api request timed out.
+230066|||Exchange SDS requests timed out.
+230067|||Exchange Auth Api requests timed out.
+230068|||Exchange DsApi request timed out.
+230069|||The Exchange Service returned a 503 Service Unavailable.
+230070|||The Exchange SDS returned a 503 Service Unavailable.
+230071|||The Exchange Auth Api returned a 503 Service Unavailable.
+230072|||The Exchange DsApi returned a 503 Service Unavailable.
+230073|||An Exchange Api error not defined in CCS
+230074|||An Exchange SDS Api error indicating invalid serialized access token
+230075|||An Exchange SDS Api error indicating mailbox or account cannot be accessed
+230076|||An Exchange SDS Api error indicating mailbox cannot be opened.
+230077|||Error due to AD Topology Endpoint not found in CCS.
+230078|||Error due to Collection not found in CCS.
+230079|||Error due to not enough memory in CCS.
+240000|||Limit for BulkAADJ tokens is reached for the tenant.
+240001|||User is not authorized to register devices in Azure AD.
+240002|||Input id_token cannot be used as 'urn:ietf:params:oauth:grant-type:jwt-bearer' grant.
+240003|||Unexpected result from authorize endpoint call.
+240004|||Authorization code not received from authorize endpoint call. Error: {errorInfo}
+250001|||Actual message content is runtime specific. Please see returned exception message for details.
+250002|||Actual message content is runtime specific. Please see returned exception message for details.
+250003|||Actual message content is runtime specific. Please see returned exception message for details.
+250004|||Actual message content is runtime specific. Please see returned exception message for details.
+250005|||Actual message content is runtime specific. Please see returned exception message for details.
+250006|||Actual message content is runtime specific. Please see returned exception message for details.
