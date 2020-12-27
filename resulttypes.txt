@@ -795,3 +795,92 @@
 530033|||Remote device flow blocked due to device based conditional access.
 530081|||Managed browser or Microsoft Edge is required for device registration to succeed.
 530082|||Workplace join is required to register the device.
+600071|||An error occurred while attempting to create a certificate from bytes.
+650011|||The user or administrator has not consented to use the application with ID '{identifier}'{namePhrase}. Send an interactive authorization request for this user and resource. Alternatively, the Application URI {uri} for the App:'{appId}'{name} in the tenant '{tenant}' might be in conflict with the Application URI for the multitenant app '{conflict}'. Update the registered Application URI to something else to avoid the conflict.
+650051|||Actual message content is runtime specific. Please see returned exception message for details.
+650052|||The app needs access to a service (\"{name}\") that your organization \"{organization}\" has not subscribed to or enabled. Contact your IT Admin to review the configuration of your service subscriptions.
+650053|||The application '{name}' asked for scope '{scope}' that doesn't exist on the resource '{resource}'. Contact the app vendor.
+650054|||The application '{name}' asked for permissions to access a resource that has been removed or is no longer available. Contact the app vendor.
+650055|||The application '{name}' required resource access list does not contain applications discoverable by '{resource}'.
+650056|||Misconfigured application. This could be due to one of the following: the client has not listed any permissions for '{name}' in the requested permissions in the client's application registration. Or, the admin has not consented in the tenant. Or, check the application identifier in the request to ensure it matches the configured client application identifier. Or, check the certificate in the request to ensure it's valid. Please contact your admin to fix the configuration or consent on behalf of the tenant. Client app ID: {id}.
+650057|||Invalid resource. The client has requested access to a resource which is not listed in the requested permissions in the client's application registration. Client app ID: {appId}({appName}). Resource value from request: {resource}. Resource app ID: {resourceAppId}. List of valid resources from app registration: {regList}.
+650058|||The app needs access to a service that your organization has not subscribed to or enabled. Contact your IT Admin to review the configuration of your service subscriptions.
+650061|||Requested permission ID: '{permissionId}' in the resource access for client '{clientId}' has an invalid type. Please followup with the owner of Resource '{resourceId}' to fix the resource entitlement configuration.
+699981|||OfficeS2S delegation service endpoints are not supported for calling application '{appId}'({appName}).
+700001|||Application: {samlAudience} needs to opt-in for 'aio' optional claim for On Behalf Of flow to work with SAML tokens issued to this application
+700002|||SAML 1.1 Bearer assertion must be a valid Base64 encoded value.
+700003|||Device object was not found in the tenant '{tenantName}' directory.
+700004|||onpremobjectguid '{objGuid}' attribute in the presented grant is malformed.
+700005|||Provided Authorization Code is intended to use against other tenant, thus rejected.
+700006|||The Audience: {audience} of the token is NOT an absolute Uri
+700007|||The grant was issued for a different client id.
+700008|||Social IDP users are not expected to have home tenant.
+700009|||'redirect_uri' must be provided when presenting an authorization code requested with a 'redirect_uri'.
+700011|||Application with identifier {appIdentifier} was not found in the directory.
+700012|||Missing Authorization header with bearer token. Client was not authenticated.
+700013|||Client is not authorized to request managed browser purpose token.
+700014|||Mobile Edge app needs to provide an enrollment id in order to acquire a purpose token that can satisfy the compliant app requirement.
+700016|||Application with identifier '{appIdentifier}' was not found in the directory '{tenantName}'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+700017|||{resourceConstant} '{resourceIdentifier}' is not supported as resource.
+700018|||{resourceConstant} '{resourceIdentifier}' is not supported as resource.
+700019|||Application ID {identifier} cannot be used or is not authorized.
+700021|||Client assertion application identifier doesn't match 'client_id' parameter. Review the documentation at https://docs.microsoft.com/azure/active-directory/develop/active-directory-certificate-credentials .
+700022|||No Subject claim provided in the assertion. Review the documentation at https://docs.microsoft.com/azure/active-directory/develop/active-directory-certificate-credentials .
+700023|||Client assertion audience claim does not match Realm issuer. Review the documentation at https://docs.microsoft.com/azure/active-directory/develop/active-directory-certificate-credentials .
+700025|||Client is public so neither 'client_assertion' nor 'client_secret' should be presented.
+700026|||Client application has no configured keys.
+700027|||Client assertion failed signature validation.
+700028|||Certificate with thumbprint {thumbprint} is not authorized.
+700029|||Invalid signing certificate.
+700030|||Invalid certificate - subject name in certificate is not authorized. SubjectNames/SubjectAlternativeNames (up to 10) in token certificate are: {certificateSubjects}.
+700031|||Invalid certificate - SubjectName or SubjectAlternativeName is missing
+700032|||Invalid certificate - Trusted Certificate Subjects for application are missing
+700033|||Client assertion should declare both custom_claims and xms_actor_token claims when overriding managed resource ID.
+700034|||Client assertion contains an invalid xms_actor_token claim.
+700035|||Client assertion contains custom_claims in the incorrect format.
+700036|||Client is not authorized to override managed identity claim in the token.
+700037|||Client assertion must declare x5c header when overriding managed resource ID.
+700038|||00000000-0000-0000-0000-000000000000 is not a valid application identifier.
+700039|||00000000-0000-0000-0000-000000000000 is not a valid resource identifier
+700041|||Post-logout redirect uri is not in approved list. Requested post-logout url: {url}.
+700042|||The reply address does not match the reply addresses configured for the application.
+700043|||The redirect address '{address}' does not match the redirect addresses configured for service identity '{serviceId}'.
+700044|||The redirect address '{address}' corresponding to this authorization code does not match the redirect address '{requestAddress}' specified in the request.
+700045|||Redirect address '{address}' specified by the client does not match any configured addresses '{configuredAddress}' or any addresses on the OIDC approve list.
+700046|||Invalid Reply Address. Reply Address must have scheme brk-{brkApplicationId}:// and be of Single Page Application type.
+700047|||Invalid Reply Address. Broker must use Single-Page Application Reply Address.
+700051|||response_type 'token' is not enabled for the application.
+700052|||The token request contains one or more unsupported response token type(s): '{ResType}'.
+700053|||response_type 'id_token' requires the 'openid' scope.
+700054|||response_type 'id_token' is not enabled for the application.
+700081|||The refresh token has expired due to maximum lifetime. The token was issued on {issueDate} and the maximum allowed lifetime for this application is {time}.
+700082|||The refresh token has expired due to inactivity. The token was issued on {issueDate} and was inactive for {time}.
+700083|||The primary refresh token has expired due to maximum lifetime. The token was issued on {issueDate} and the maximum allowed lifetime for this application is {time}.
+700171|||End-user declined to authorize the request.
+700172|||Authentication loop detected: please check application's configuration.
+700311|||Remote auth session in cache is invalid.
+701011|||Unable to save code into cache.
+701012|||Unable to create remote auth session in device flow cache.
+701013|||Unable to create remote auth session for user in activity store.
+701014|||Cannot generate more one time passcodes.
+750011|||Cannot validate RelayState. Check that RequestDataStorage is properly configured.
+750012|||RelayState of response does not match with RelayState from request. Expected '{expected}' actual '{actual}'.
+750013|||Cannot serialize SAML message container with no endpoint specified.
+750014|||Could not find a SAMLRequest or SAMLResponse in the message. Check if the request contains a valid Uri or Form Post that contains protocol parameters for SAML HTTP bindings.
+750015|||Wrong SAML message type '{wrongType}', expected '{expectedType}'.
+750016|||Parameter '{name}' must be unique in HTTP SAML message.
+750017|||The specified encoding method '{actual}' is not supported. Use '{expected}' encoding instead.
+750018|||The signature algorithm '{algo}' is not valid.
+750019|||The query string hash could not be computed for signature generation/validation. Neither SAMLRequest nor SAMLResponse was present in the message.
+750031|||The requested protocol binding '{reqBinding}' is not supported. The supported bindings are GET (HTTP Redirect) and POST.
+750032|||SAML protocol response cannot be sent via bindings other than HTTP POST. Requested binding: {reqBinding}
+750051|||Must specify HTTP POST operation for SAML POST binding.
+750052|||SAMLRequest or SAMLResponse must be present in body of HTTP request for SAML POST binding.
+750053|||Must specify HTTP GET operation for SAML HTTP Redirect binding.
+750054|||SAMLRequest or SAMLResponse must be present as query string parameters in HTTP request for SAML Redirect binding.
+750055|||SAML message was not properly DEFLATE-encoded.
+750056|||SAML message was not properly base64-encoded.
+750057|||SAML message was not properly UTF8-encoded.
+750058|||XML attribute '{attributeName}' in the SAML message must be a boolean.
+750059|||XML attribute '{attributeName}' in the SAML message must be an integer.
+750161|||Allowed SAML authentication request's NameIDPolicy formats are: {format}.
