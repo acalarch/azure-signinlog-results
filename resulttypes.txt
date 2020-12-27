@@ -629,3 +629,169 @@
 250004|||Actual message content is runtime specific. Please see returned exception message for details.
 250005|||Actual message content is runtime specific. Please see returned exception message for details.
 250006|||Actual message content is runtime specific. Please see returned exception message for details.
+400051|||Malformed token received from external Identity Provider.
+400131|||Claims Provider Federation disabled.
+500011|||The resource principal named {name} was not found in the tenant named {tenant}. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You might have sent your authentication request to the wrong tenant.
+500012|||Resource application name '{name}' is not valid.
+500013|||Resource identifier is not provided.
+500014|||The service principal for resource '{identifier}' is disabled.  This indicate that a subscription within the tenant has lapsed, or that the administrator for this tenant has disabled the application, preventing tokens from being issued for it.
+500021|||Access to '{tenant}' tenant is denied.
+500022|||Access to '{tenant}' tenant is denied.
+500031|||Cannot find signing certificate configured.
+500032|||Cannot find signing certificate/private key to issue a certificate.
+500061|||Assertion failed signature validation.
+500062|||Enveloped Signature Transform cannot be the last transform in the chain. The last transform must compute the digest which Enveloped Signature transform is not capable of.
+500063|||The '{type}' input type is not supported for the transform.
+500064|||The required attribute Algorithm in the element '{name}' is missing.
+500065|||Enveloped Signature Transform does not support the algorithm '{algo}'.
+500066|||Cannot resolve the '{uri}' URI in the signature to compute the digest.
+500067|||Invalid signature. Cannot create a hash or a keyed hash algorithm using the '{method}' signature method.
+500068|||Invalid signature. Cannot create a signature deformatter for the '{method}' signature method.
+500069|||The element with ID '{id}' was either unsigned or the signature was invalid.
+500081|||SAML assertion validation failed: no supported token signature is provided.
+500082|||SAML assertion is not present in the token.
+500083|||Unable to verify token signature. No trusted realm was found with identifier '{issuer}'.
+500084|||Cannot read SecurityToken. Expected element is ({expectedName}, {expectedNamespace}) the actual element is ({localName}, {actualNamespace}).
+500085|||SAML Assertion with MajorVersion '{actualMajor}' and MinorVersion '{actualMinor}' is not supported. The supported version is MajorVersion '{major}' and MinorVersion '{minor}'.
+500086|||SAML Assertion AssertionId '{id}' is not a valid xsd:ID value.
+500087|||SAML Assertion does not have any SAML Statement elements. SAML Assertion must have at least one SAML Statement element.
+500088|||SAML Assertion is missing the required '{name}' Attribute.
+500089|||SAML 2.0 assertion validation failed: {details}
+500101|||Audience URI validation failed. No token audiences were found.
+500102|||Audience URI validation failed. No allowed audiences are configured.
+500103|||Validation of Audience URI(s) {uri} failed. No match was found with allowed audience(s) {audience}.
+500111|||The reply uri specified in the request has an invalid scheme.
+500112|||The reply address '{actual}' does not match the reply address '{provided}' provided when requesting Authorization code.
+500113|||No reply address is registered for the application{idPhrase}.
+500114|||Protocol not specified for reply address validation.
+500115|||The reply uri specified in the request is missing or not a valid URL.
+500116|||The reply uri specified in the request is not a valid URL. Allowed schemes: '{schemes}'.
+500117|||The reply uri specified in the request isn't using a secure scheme.
+500118|||The reply uri specified in the request failed validation. The reply uri host must match one of the registered DNS host names '{host}' for site with ID '{id}'.
+500119|||Redirect URIs with urn: schemes are prohibited. Use a different scheme, or https://login.microsoftonline.com/common/oauth2/nativeclient
+500121|||Authentication failed during strong authentication request.
+500122|||SWT assertion failed signature validation. Actual message content is runtime specific. Please see returned exception message for details.
+500123|||SWT assertion failed signature validation. Actual message content is runtime specific. Please see returned exception message for details.
+500124|||No device secret is provisioned in the store.
+500125|||Invalid device secret is provided.
+500126|||External ID token from issuer '{issuer}' failed signature verification. KeyID of token is '{identifier}'.
+500127|||No authenticated credentials found in request.
+500128|||No session key found.
+500129|||No NGC transport key found.
+500131|||Assertion audience does not match the Client app presenting the assertion. The audience in the assertion was '{tokenAudience}' and the expected audience is '{expectedAudience}' or one of the Application Uris of this application with App ID '{appId}'({appName}). The downstream client must request a token for the expected audience (the application that made the OBO request) and this application should use that token as the assertion.
+500132|||Assertion is malformed and cannot be read.
+500135|||Authentication code is missing in the assertion.
+500136|||The token issuer doesn't match the api version: A version 2 token can only be used with the v2 endpoint.
+500137|||The token issuer doesn't match the api version: A version 1 token cannot be used with the v2 endpoint.
+500138|||No Refresh Token claim provided in the assertion.
+500139|||Refresh token in the assertion is not a primary refresh token.
+500171|||Certificate has been revoked.
+500172|||Certificate '{name}' issued by '{issuer}' is not valid. Current time: '{curTime}'. Certificate NotBefore: '{startTime}'. Certificate NotAfter: '{endTime}'.
+500173|||Unable to download CRL. Invalid status code {code} from CRL distribution point.
+500174|||Unable to construct valid CRL from response.
+500175|||Unable to find expected CrlSegment.
+500176|||Cannot find issuing certificate in trusted certificates list.
+500177|||Delta CRL distribution point is configured without a corresponding CRL distribution point.
+500178|||Unable to retrieve valid CRL segments for {type}. Please try again later.
+500179|||CRL validation timed out. Please try again later.
+500180|||No TLS certificate was provided.
+500181|||The TLS certificate provided does not match the certificate in the assertion.
+500182|||The issuing certificate authority failed to validate because it is missing the required subject key identifier extension.
+500200|||User account '{email}' is a consumer account. Consumer guest accounts cannot sign in using the /common authority of the v1 endpoint - the app must specify which tenant authority to sign the user into.
+500201|||We are unable to issue tokens from this API version for a Microsoft account. Please contact the application vendor as they need to use version 2.0 of the protocol to support this.
+500202|||User account '{email}' from external identity provider '{idp}' is not supported for API version '{version}'. Microsoft account pass-thru users and guests are not supported by the tenant-independent endpoint.
+500204|||Microsoft account '{email}' can’t be used to log in to application {appName}. Please get this user invited to {tenant} directory or sign out and sign in again with a Work or School account.
+500205|||A consumer (B2C) account can't be used to log into non consumer applications.
+500241|||The reader is not positioned on an EncryptedKey element that can be read.
+500242|||A ReferenceList must contain at least one reference, none were found.
+500243|||The reader is not positioned on a KeyReference. XmlEnc specifies that once a KeyReference is found only a KeyReference must exist.
+500244|||The reader is not positioned on a DataReference. XmlEnc specifies that once a DataReference is found only a DataReference must exist.
+500245|||The key identifier must be set before writing the encrypted data element.
+500246|||The reader is not positioned on an EncryptedData element that can be read.
+500247|||No CipherData present in EncryptedData element.
+500248|||The reader is not positioned on a CipherData element that can be read.
+500251|||The issuer name cannot be {name}.
+500252|||The issuer name is too long, maximum length is {length}.
+500271|||ID Token doesn't contain nonce claim.
+500272|||ID Token doesn't contain sub claim.
+500273|||Invalid JWT token. Subject identifier mismatch.
+500274|||ID Token doesn't contain expected claim: {claim}.
+500275|||Duplicated claim found in ID Token claims.
+500276|||Token presented by external Identity Provider has failed signature validation.
+500277|||External ID Token has unexpected issuer: {issuer}.
+500278|||External ID Token issued to unexpected audience: {audience}.
+500301|||The audience {audience} in assertion is not included in forwardableOnBehalfOfOriginsAcceptedAudiencesList for PFT OBO flow.
+500302|||The client id {appId} in subassertion is not included in forwardableOnBehalfOfOriginsAcceptedPrecedingAppsList for PFT OBO flow.
+500303|||The Audience {audience} in Jwt Subassertion does not match the client.
+500331|||An error occurred while attempting to create a certificate from bytes.
+500341|||The user account {identifier} has been deleted from the {tenant} directory. To sign into this application, the account must be added to the directory.
+500342|||User account is not configured for remote NGC.
+500343|||Could not create remote sign-in session.
+500344|||User Account is not found for Fido Sign in flow.
+500345|||The user account is missing PUID.
+500501|||Invalid value for '{apiVersion}'.
+500502|||Expected exactly one of '{issuer}' and '{authEndpoint}'.
+500581|||Session information is not sufficient for single-sign-on on V2 with prompt=none to verify if MSA account.
+500582|||Microsoft Account session_id with prompt=none not supported on AAD tenant.
+500583|||Storage Access required.
+500761|||Due to a configuration change made by your administrator, or because you moved to a new location, the service principal '{servicePrincipal}' must use a certificate for authentication to access '{resource}'.
+500881|||Limit on telecom MFA calls reached. Please retry with PhoneAppNotification or try again in a few minutes.
+500882|||Limit on telecom MFA calls reached. Please retry with PhoneAppCode or try again in a few minutes.
+500981|||Malformed JWT token.
+500982|||Unexpected field '{field}' in JWT header.
+500983|||JWT header must contain '{field}'.
+500984|||Unsupported signing algorithm.
+500985|||Unexpected JWT token header type.
+500986|||Unexpected field '{field}' in JWT body.
+500991|||Unexpected AuthToken audience. Expected token audience: '{expected}', Actual token audience: '{actual}'.
+500992|||Public Key Authentication assertion signature is invalid.
+501051|||Application '{appId}'({appName}) is not assigned to a role for the application '{resourceId}'({resourceName}).
+501111|||JWT tokens are not supported by FederatedAppsClaimsTransformer.
+501201|||Unexpected claim(s) in JWT: {claims}.
+501202|||Unexpected grant type in JWT.
+501203|||Nonce is required in JWT.
+501204|||Malformed JWT.
+501205|||Unexpected field '{name}' in JWT header.
+501206|||JWT header must contain '{name}'.
+501207|||Unsupported algorithm.
+501208|||Unexpected JWT token type.
+501209|||JWT signature is invalid.
+501210|||Assertion is null or empty.
+501241|||Mandatory Input '{paramName}' missing from transformation id '{transformId}'.
+501242|||ClaimsTransformations with ID '{identifier}' contains an unsupported InputClaim.Source '{source}'.
+501271|||Broker app needs to be installed for device authentication to succeed.
+501291|||Client app is a Mam app, device is not registered and request is sent using a broker. Work place join needs to be done to register the device before the app can be accessed.
+501292|||Client application cannot satisfy app protection requirement. If it's a first party app, then it's not whitelisted to be used with app protection policies, otherwise, the app has not advertised as app-compliant capable, or the authentication library used does not support app protection policies.
+501311|||Browser not supported.
+501312|||Device used during the authentication is not registered for the account.
+501313|||Your device is required to be managed to access this resource.
+501314|||Silent interrupt required to recognize browser capabilities. Used to differentiate between Safari running in iPadOS or Mac.
+501431|||Session is invalid due to different resource.
+501461|||AcceptMappedClaims is only supported for a token audience matching the application GUID or an audience within the tenant's verified domains. Either change the resource identifier, or use an application-specific signing key.
+501471|||Missing code_challenge parameter.
+501481|||The Code_Verifier does not match the code_challenge supplied in the authorization request.
+501482|||The Code_Verifier length is less than invalid.
+501491|||Invalid size of Code_Challenge parameter.
+501571|||User routing cookie missing.
+501591|||Missing claim requested to external provider.
+501592|||idToken doesn't contain expected claim: '{claim}'.
+501593|||Value of {type} claim in idToken: {value} doesn't match expected values: {expected}
+501621|||Regular expression replacement for claims transformation has timed out. This indicates a too complex regular expression may have been configured for this application. A retry of the request may succeed. Otherwise, please contact your admin to fix the configuration.
+501631|||Regular expression replacement for claims transformation results in too many replacements in the input sourceClaim. Please contact your admin to fix the configuration.
+501632|||Regular expression replacement for claims transformation has too many substitution parameters in the replacement input parameter. Please contact your admin to fix the configuration.
+501791|||Client_info is only supported for MSAL/ADAL, please ensure that MSAL/ADAL custom headers are being sent.
+501811|||No otp for the given tenant/user.
+501831|||Cannot generate more one time passcode due to cache exception.
+501941|||Resource '{resourceId}'({resourceName}) is not configured as a multi-tenant application. Usage of the /common endpoint is not supported for such applications created after '{time}'. Use a tenant-specific endpoint or configure the application to be multi-tenant.
+510001|||Cannot meet the requirements stated in the request.
+530001|||Browser not supported.
+530002|||Your device is required to be compliant to access this resource.
+530003|||Your device is required to be managed to access this resource.
+530011|||Browser not supported.
+530021|||Application does not meet the conditional access approved app requirements.
+530022|||Browser not supported.
+530031|||Access policy does not allow token issuance.
+530032|||The tenant admin has configured a security policy that blocks this request. Check the security policies that are defined on the tenant level to determine if your request meets the policy requirements.
+530033|||Remote device flow blocked due to device based conditional access.
+530081|||Managed browser or Microsoft Edge is required for device registration to succeed.
+530082|||Workplace join is required to register the device.
