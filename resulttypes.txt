@@ -884,3 +884,115 @@
 750058|||XML attribute '{attributeName}' in the SAML message must be a boolean.
 750059|||XML attribute '{attributeName}' in the SAML message must be an integer.
 750161|||Allowed SAML authentication request's NameIDPolicy formats are: {format}.
+800111|||Encryption keys retrieved is null or empty.
+800181|||Invalid configuration detected causing multiple redirects.
+800182|||Failed to determine on-premises password validation endpoints for request.
+800183|||The on-premises region configuration is invalid for the tenant.
+800184|||The on-premises password validation request was throttled.
+900000|||Environment error.
+900001|||The browser is having problems downloading resources from the CDN (Content Delivery Network). Please check with your organization's system administrators to ensure that they have not blocked the resource url endpoint and that the files exists and are accessible.
+900021|||Requested tenant identifier '{tenant_id}' is not valid. Tenant identifiers may not be an empty GUID.
+900022|||Provided tenant identifier is empty.
+900023|||Specified tenant identifier '{tenant_id}' is neither a valid DNS name, nor a valid external domain.
+900041|||The request contains {num} tokens separated by '{splitter}' instead of a single key value pair.
+900042|||Authorization header is missing or malformed.
+900043|||Bad request. Passed context cannot be parsed.
+900044|||Only version {num} of PKeyAuth is supported.
+900045|||Missing PKeyAuth Authorization header.
+900046|||Unprotected credential key parsing failed: invalid JWE format.
+900047|||Malformed PKeyAuth header.
+900048|||Request too large.
+900049|||Malformed request.
+900051|||Unable to complete request. The request was invalid since sid and domain_hint cannot be used together.
+900052|||Request body may not be encoded in UTF-16.
+900053|||Request body must not begin with UTF-8 BOM.
+900054|||Specified Broker Client ID does not match ID in provided grant.
+900055|||Broker Client ID expected in GUID format.
+900056|||redirect_uri is a required parameter for brokered authentication.
+900101|||Unable to create default encryption algorithm: {algoName}.
+900102|||'{algoName}' algorithm not supported.
+900103|||The digest algorithm '{algoName}' is not supported.
+900104|||Lifetime must be greater than or equal to TimeSpan.Zero.
+900105|||The token signing digest algorithm '{algoName}' requested by the application is not supported for this type of token. This indicates the application is misconfigured.
+900106|||The '{name}' input type is not supported for the transform.
+900107|||The exclusive canonicalization transform does not support the '{algoName}' algorithm.
+900108|||{name} implementation not supported.
+900109|||Cannot create a signature deformatter for the requested algorithm.
+900143|||'{name}' is required for the '{type}' grant type.
+900144|||The request body must contain the following parameter: '{name}'.
+900161|||Invalid access token. Required tenant ID claim is missing.
+900191|||The 'client_credentials' grant type requires a tenant to be specified.
+900192|||Unable to determine the tenant identifier from the request. Client ID '{id}' does not specify a tenant realm.
+900193|||The 'urn:microsoft.com:grant-type:device:credentials' grant type requires a tenant to be specified.
+900194|||Unable to determine the tenant identifier from the request. Token audience '{audienceSpn}' does not specify a tenant realm.
+900195|||Unable to determine the tenant identifier from the request. Token audience '{audienceSpn}' is not valid.
+900231|||Unable to authenticate the user.
+900232|||Request specified an authentication method '{authRequirementInRequest}' that is not in the allowed list of authentication methods supported by application '{appName}'.
+900233|||The SAML AuthnRequest or LogoutRequest must specify an Issuer.
+900234|||The SAML AuthnRequest or LogoutRequest must specify the default Issuer Format '{expectedIssuerFormat}'. Received Issuer Format: '{receivedIssuerFormat}'.
+900235|||SAML authentication request's RequestedAuthenticationContext Comparison value must be 'exact'. Received value: '{samlComparison}'.
+900236|||The SAML authentication request property '{propertyName}' is not supported and must not be set.
+900237|||AssertionConsumerServiceIndex cannot be set when ProtocolBinding or AssertionConsumerServiceUrl are set.
+900238|||AssertionConsumerServiceUrl cannot be set when AssertionConsumerServiceIndex is set.
+900239|||ProtocolBinding cannot be set when AssertionConsumerServiceIndex is set.
+900281|||Principal name format is invalid. Realm component of the name cannot be empty.
+900282|||Principal name format is invalid for name '{name}'. Expected primary[@realm].
+900381|||Request redirection failed. Tenant '{tenant_name}' specified belongs to the National Cloud '{tenant_cloud}', but Current Cloud Instance '{current_cloud}' does not federate with '{tenant_cloud}'.
+900382|||Confidential Client is not supported in Cross Cloud request.
+900383|||Internal error has occurred during a redirect. Please login directly to your National Cloud dedicated portal.
+900384|||JWT token failed signature validation. Actual message content is runtime specific. Please see returned exception message for details.
+900385|||JWT token must be signed.
+900386|||WsFederation metadata request for Tenant '{tenantName}' must be made on Cloud '{cloud}'.
+900387|||Unsupported version '{apiVersion}' specified in discovery request
+900388|||Http request to national cloud failed with time out error
+900410|||Non-retryable error has occurred.
+900421|||Actual message content is runtime specific. Please see returned exception message for details.
+900431|||National Cloud Federation or Proxy Request feature is disabled.
+900432|||Confidential Client is not supported in Cross Cloud request.
+900433|||Invalid National Cloud Token.
+900434|||National Cloud request processing failed: {details}
+900435|||Received Empty OAuth response from National Cloud: {name}.
+900436|||Invalid request method {name} received.
+900437|||Auth Code value is missing.
+900438|||Refresh token value is missing.
+900439|||Confidential Client requests are not supported on the public endpoint (login.microsoftonline.com) for tenants in the Azure Government cloud. Send your login requests to https://login.microsoftonline.us instead.  Please see https://devblogs.microsoft.com/azuregov/azure-government-aad-authority-endpoint-update/ for more details
+900440|||Requests to tenants hosted in the public cloud are not supported on USGov endpoints. This user must sign into https://login.microsoftonline.com instead of https://login.microsoftonline.us.  The application must send the user to the right login endpoint, usually by hosting two versions of the site (e.g. portal.azure.us and portal.azure.com)
+900441|||Requests to applications hosted in the public cloud are not supported for USGov tenants.
+900442|||Requests from the public cloud user for USGov resource, and requests from USGov user for public cloud resource are not supported.
+900443|||The requested endpoint {endpoint} is not supported on air-gapped cloud using public hostname. Please use hostname {hostname} instead.
+900491|||Service principal '{identifier}' not found.
+900501|||Json format queue length exceeds the threshold.
+900521|||Static Content Manager: Has not been initialized.
+900522|||You can't have an alias map to another alias.
+900523|||Passed in value is not an enum - {type}.
+900524|||No CDN roots configured.
+900525|||Service configuration error has occurred: unable to obtain SAS certificate.
+900561|||The endpoint only accepts {valid_verbs} requests. Received a {invalid_verb} request.
+900562|||Unsupported GUID resource format specified, only supported GUID formats types are '00000000000000000000000000000000' and '00000000-0000-0000-0000-000000000000'.
+900610|||Non-retryable error has occurred.
+900611|||Failed to parse provider metadata.
+900612|||Failed to parse provider signing keys.
+900811|||Unsupported web method is used.
+900812|||Unsupported WS-Federation message of type '{name}'.
+900821|||Unsupported WS-Federation message of type '{type}'.
+900822|||Requested '{type}' value is unsupported.
+900851|||Unable to issue a token since user account is not provisioned yet.
+900941|||Administrator consent is required. App is considered risky.
+900942|||Administrator consent is required in order to allow token to be issued for clients to access resource.
+900981|||An admin consent request was received for a risky app.
+901001|||Invalid request. The {name} request parameter value '{value}' is invalid.
+901002|||The '{name}' request parameter is not supported.
+901003|||Invalid request. The request contains too many encoded parameters.
+901004|||Expected parameter {name} not found.
+901005|||'{value}' is not a supported value for {name} parameter. Expected values are '{expectedVal}'.
+901121|||No certificates found for {application}.
+901122|||Application '{application}' has no encryption certificate configured.
+901123|||Misconfigured application '{application}'.
+901124|||Application '{application}' does not exist.
+901125|||Application does not exist.
+901141|||Bad request - expiration time is in the past.
+901142|||Bad request - requested token lifetime exceeds allowed limit.
+901151|||Fallback_domain parameter is not allowed together with domain_hint.
+901171|||Unable to sign in. Please sign out and sign in again with your identity provider.
+901201|||This request is invalid, cannot be processed.
+901202|||Device identifier in the device signature is different from the device assigned to the resource account.
