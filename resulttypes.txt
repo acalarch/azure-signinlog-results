@@ -996,3 +996,73 @@
 901171|||Unable to sign in. Please sign out and sign in again with your identity provider.
 901201|||This request is invalid, cannot be processed.
 901202|||Device identifier in the device signature is different from the device assigned to the resource account.
+1000000|||The Bind API requires the Azure AD user to also authenticate with an external IDP, which hasn't happened yet. Redirecting to external IDP.
+1000001|||The specified bind provider '{provider}' is not supported.
+1000002|||The bind completed successfully, but the user must be informed.
+1000003|||MSA redirected to ESTS for an AAD user to login.
+1000004|||Values '{notAllowedValues}' are not valid for claim request '{requestedClaim}'.
+1000005|||Invalid definition for external identity provider, domain is missing
+1000006|||Invalid definition for external identity provider with domain '{domain}'. Reason: Following properties are mandatory: domain, issuer URI, passive authentication URL.
+1000007|||Invalid definition for external identity provider with domain '{domain}'. Reason: The value '{url}' in the property '{urlType}' must be an absolute URL.
+1000008|||Invalid definition for external identity provider with domain '{domain}'. Reason: The value '{url}' in the property '{urlType}' must be https.
+1000009|||Invalid definition for external identity provider with domain '{domain}'. Reason: Only WsFederation/SamlP protocols are allowed.
+1000010|||Invalid definition for external identity provider with domain '{domain}'. Reason: Domain '{value}' is not in expected format.
+1000011|||Invalid definition for external identity provider with domain '{domain}'. Reason: Issuer '{value}' is not in expected format.
+1000012|||Invalid definition for external identity provider with domain '{domain}'. Reason: Domain '{value}' is a reserved value.
+1000013|||Invalid definition for external identity provider with domain '{domain}'. Reason: Issuer '{value}' is a reserved value.
+1000014|||Cannot issue On-Behalf-Of token for tenant '{tenant1}' as JWT bearer token was issued for '{tenant2}'.
+1000015|||Direct federation users are not expected to have home tenant.
+1000017|||Invalid definition for external identity provider with domain '{domain}'. The value '{passiveAuthUrl}' for the property PassiveAuthUrl does not match domain '{domain}' in the realm definition and does not belong to any of the third party identity providers that have been enabled for direct federation.
+1000018|||Realm with domain '{domain}' is not an external realm.
+1000019|||The provided certificate authority type '{certificateAuthorityType}' is not valid.
+1000020|||The provided application '{applicationId}' may not be used on this endpoint.
+1000021|||External Claims Provider unavailable: general exception.
+1000022|||External Claims Provider unavailable: WebException status code '{status}'.
+1000023|||The GitHub access token forwarded exceeds the configured length of '{sizeLimit}'.
+1000024|||Requested claim 'ClientIpReportedByRP' should have a single and valid ip address.
+1000025|||Received invalid stk_jwk.
+1000026|||Received invalid Primary Refresh Token.
+1000027|||Session Transport Key is not present.
+1000028|||Received invalid Windows SSO Credential.
+1000029|||The provided confirmation request (req_cnf or pop_jwk) is not properly formatted.
+1000030|||Microsoft Account granted Refresh Token Credential is not supported on AAD tenant.
+1000031|||Application {appDisplayName} cannot be accessed at this time. Contact your administrator.
+1000101|||Access denied.
+1000102|||Invalid request.
+1000103|||Invalid request.
+1000104|||Invalid request.
+1000105|||Invalid request.
+1000106|||The provided sec-Restrict-Tenant-Access-Policy header ({headerValue}) is invalid. Please double check the format of the header and try again.
+1000107|||The tenant ID {tenantId} provided in the sec-Restrict-Tenant-Access-Policy header was not found in Azure Active Directory. Please contact your administrator for assistance.
+1000108|||The policy ID {policyId} provided in the sec-Restrict-Tenant-Access-Policy header did not match a policy ID in tenant {tenantName}. Please contact your administrator for assistance.
+1000109|||The policy ID {policyId} provided in the sec-Restrict-Tenant-Access-Policy header is not properly configured. Please contact the {tenantName} tenant administrator for assistance.
+1000110|||Invalid request, identity tenant '{identityTenant}' is not allowed on resource tenant '{resourceTenant}' for cross cloud B2B call.
+1000112|||Cannot issue On-Behalf-Of token for tenant '{tenant1}' as JWT bearer token was issued for '{tenant2}'.
+1000113|||Non Retryable Error Occured.
+1000114|||Invalid request. Endpoint does not accept requests with multiple DataCriteria items of type {dataCriteriaType}.
+1000115|||Invalid request. TenantId in the URL and DataCriteria has to match.
+1000116|||Invalid request. One of the ids in the PolicyObjectIds is not a valid Guid.
+1000117|||Invalid request. Max policyIds count of {policyObjectIdsMaxCount} exceeded.
+1000118|||Invalid request. UserId cannot be an empty Guid.
+1000202|||Migration to public cloud is complete for this tenant. Please use login.microsoftonline.com endpoint for this tenant.
+1000450|||There is only MSA user active session and need to redirect to Msa.
+1000460|||The provided x-ms-plid header value '{headerValue}' is not a properly formatted private link identifier.
+1000461|||Private link data couldn't be read. Please try again.
+1000462|||The specified private link was not found. If you just provisioned this private link, please wait a few minutes and try again.
+1000463|||The tenant you're trying to access, '{tenantName}', is not authorized to use this private link.
+1000464|||Private link data couldn't be upserted/read. Please try again.
+1000465|||The required private link state could not be found.
+1000470|||The protocol {protocolId} is blocked for tenant {tenantId}. Please contact your administrator for assistance.
+1000471|||The document with private link id {plid} already present associated with private link resource id {plrid}
+1000472|||Unable to parse the session store last written time {lastWrittenTime}.
+1000473|||Unable to create session pointer for {sessionType} due to {reason}.
+1000501|||Unable to read session document from Session Store.
+1000502|||The provided certificate is not within its specified validity window.
+1000503|||Request contains mismatched device ids.
+1000601|||This API is not currently supported.
+1000602|||Action not permitted. Only managed identity service could call this API.
+1000603|||Unsupported tenant provided. The tenant must be a guid.
+1000604|||Invalid request parameters.
+1000605|||An error occurred during certificate creation.
+1000606|||A requested pass through claim is not permitted for this client.
+1000607|||This API is not currently supported.
