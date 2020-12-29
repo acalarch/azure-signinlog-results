@@ -1066,3 +1066,14 @@
 1000605|||An error occurred during certificate creation.
 1000606|||A requested pass through claim is not permitted for this client.
 1000607|||This API is not currently supported.
+1000701|||Multiple devices with the same device-name found in tenant {tenant}. Please reach out to your tenant-admin to ensure uniqueness of device display-name.
+1000800|||Unsupported compound-resource format.
+1000901|||The provided certificate cannot be used for requesting tokens. The value of token_not_after extension on the certificate should be greater than the current time.
+1000902|||The certificate provided for authentication should contain the Authority Key Identifier (AKI) extension.
+1000903|||The Authority Key Identifier extension in the provided certificate doesn't match with the Key Identifier of any available Keys used for signing the certificates.
+1001000|||Unable to acquire certificate policy from tenant
+1001001|||Certificate policy acquired from tenant is invalid and contains no user bindings
+1001002|||Certificate policy does not contain any valid user bindings
+1001003|||Unable to acquire value specified in binding from certificate
+1001004|||Unable to create rsa key with the provided exponent and modulus
+1100000|||Non-retryable error has occurred.
