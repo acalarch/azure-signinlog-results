@@ -1077,3 +1077,11 @@
 1001003|||Unable to acquire value specified in binding from certificate
 1001004|||Unable to create rsa key with the provided exponent and modulus
 1100000|||Non-retryable error has occurred.
+1300011|||NGC key is malformed.
+1300012|||Signature key type is not provided.
+1300041|||NGC ID key cannot be decoded.
+1300042|||NGC ID key is not associated with a device.
+1311011|||Signature key ID is not provided.
+1311012|||Resource Account ID key cannot be decoded.
+1311013|||UserPrincipal doesn't have the Resource Account key ID key configured.
+1311014|||Resource Account ID key is not associated with a device.
