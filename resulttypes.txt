@@ -1085,3 +1085,11 @@
 1311012|||Resource Account ID key cannot be decoded.
 1311013|||UserPrincipal doesn't have the Resource Account key ID key configured.
 1311014|||Resource Account ID key is not associated with a device.
+1350001|||Fido assertion verification failed. Result: '{result}'
+1350011|||Key ID cannot be decoded.
+1350101|||Key ID cannot be decoded.
+1400001|||Request nonce is not provided.
+1400002|||Request nonce is malformed.
+1400011|||Session key is not provided.
+1400012|||Session key type {type} is not supported.
+1659001|||Unexpected error decoding the required request.
