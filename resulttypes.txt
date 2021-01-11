@@ -1101,3 +1101,4 @@
 2205011|||The downloaded contents are not a valid ASN-Encoded Certificate Revocation List (CRL). Contact your IT Administrator and have them verify the CRL Distribution Point configured in the directory is responding with a valid ASN-encoded CRL.
 2205012|||CRL download timed out.
 2205013|||CRL download not allowed.
+2300241|||Failed to find cached credential cert with thumbprint: {thumbPrint}.
