@@ -321,6 +321,7 @@
 81013|||Failed to lookup the user whose kerberos ticket was used to login.
 81014|||The DesktopSSO auth token has expired.
 81015|||Rejecting DesktopSSO Kerberos ticket as it was obtained through delegation. Delegated Kerberos ticket does not originate from user directly. Please contact your tenant administrator to disable delegation on the AZUREADSSOACC account.
+81016|||Invalid STS request.
 90000|||Internal use
 90002|||Tenant '{tenant_name}' not found. This may happen if there are no active subscriptions for the tenant. Check to make sure you have the correct tenant ID. Check with your subscription administrator.
 90004|||The request is not properly formatted.
