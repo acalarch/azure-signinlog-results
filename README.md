@@ -6,5 +6,5 @@ Am I missing a value? Feel free to create an issue or make a pull request.
 Looking for troubleshooting help on an ambigious error code? Error codes near yours may provide an insight.
 
 All codes are available through Microsoft officially:
-https://login.microsoftonline.com/error
+https://login.microsoftonline.com/error 
 https://login.microsoftonline.com/error?code=0
