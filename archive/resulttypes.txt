@@ -1,3 +1,8 @@
+#OUT OF DATE - LEAVING FOR HISTORICAL REFERENCE#
+
+
+
+
 #All are unchanged except code 0, which is not an error code. 
 #Live data for error codes can be obtained here: https://login.microsoftonline.com/error
 #this list is an enumeration of that web resource (i.e. brute forcing all values between 0 and 99999)
