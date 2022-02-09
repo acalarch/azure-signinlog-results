@@ -5516,5 +5516,37 @@
     {
         "Error Code": "7500534",
         "Message": "Exactly one saml:AuthnContextClassRef or saml:AuthnContextDeclRefs element is expected in the samlp:RequestedAuthnContext."
+    },
+    {
+        "Error Code": "9000410",
+        "Message": "Malformed JSON."
+    },
+    {
+        "Error Code": "9000411",
+        "Message": "The request is not properly formatted. The parameter '{name}' is duplicated."
+    },
+    {
+        "Error Code": "9000412",
+        "Message": "The request is missing a key."
+    },
+    {
+        "Error Code": "9000413",
+        "Message": "'Context' field is required."
+    },
+    {
+        "Error Code": "9000414",
+        "Message": "Malformed request."
+    },
+    {
+        "Error Code": "9000510",
+        "Message": "Hybrid SPA authorization codes cannot be requested on the app-only flow."
+    },
+    {
+        "Error Code": "9000511",
+        "Message": "Cannot emit Hybrid SPA auth code for Public or SPA client.  You must request the hybrid SPA auth code on your confidential client back-end, while redeeming the original auth code requested for a web type redirect URI."
+    },
+    {
+        "Error Code": "9000512",
+        "Message": "A Hybrid SPA code can only be requested while redeeming a confidential client authorization code (a code issued to a web-type redirect URI). Do not request a hybrid code otherwise."
     }
 ]
