@@ -1333,3 +1333,11 @@ Error Code|||||Message|||||Remediation
 7500532|||||The end of an XML element was expected, but instead XML content of type '{nodeType}' was found. XML content may be present that is not defined in the SAML protocol specifications.|||||No Remediation Provided
 7500533|||||The SAML response was expected to start with either a Response element or a LogoutResponse element, from the XML namespace 'urn:oasis:names:tc:SAML:2.0:protocol'.|||||No Remediation Provided
 7500534|||||Exactly one saml:AuthnContextClassRef or saml:AuthnContextDeclRefs element is expected in the samlp:RequestedAuthnContext.|||||No Remediation Provided
+9000410|||||Malformed JSON.|||||No Remediation Provided
+9000411|||||The request is not properly formatted. The parameter '{name}' is duplicated.|||||No Remediation Provided
+9000412|||||The request is missing a key.|||||No Remediation Provided
+9000413|||||'Context' field is required.|||||No Remediation Provided
+9000414|||||Malformed request.|||||No Remediation Provided
+9000510|||||Hybrid SPA authorization codes cannot be requested on the app-only flow.|||||No Remediation Provided
+9000511|||||Cannot emit Hybrid SPA auth code for Public or SPA client.  You must request the hybrid SPA auth code on your confidential client back-end, while redeeming the original auth code requested for a web type redirect URI.|||||No Remediation Provided
+9000512|||||A Hybrid SPA code can only be requested while redeeming a confidential client authorization code (a code issued to a web-type redirect URI). Do not request a hybrid code otherwise.|||||No Remediation Provided
