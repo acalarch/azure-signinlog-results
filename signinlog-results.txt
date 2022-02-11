@@ -1341,3 +1341,4 @@ Error Code|||||Message|||||Remediation
 9000510|||||Hybrid SPA authorization codes cannot be requested on the app-only flow.|||||No Remediation Provided
 9000511|||||Cannot emit Hybrid SPA auth code for Public or SPA client.  You must request the hybrid SPA auth code on your confidential client back-end, while redeeming the original auth code requested for a web type redirect URI.|||||No Remediation Provided
 9000512|||||A Hybrid SPA code can only be requested while redeeming a confidential client authorization code (a code issued to a web-type redirect URI). Do not request a hybrid code otherwise.|||||No Remediation Provided
+9004351|||||Requested resource '{resource}' cannot accept cross-cloud tokens, where user belongs to the cloud '{nationalCloud}' and authentication request is to https://login.microsoftonline.com.|||||No Remediation Provided
