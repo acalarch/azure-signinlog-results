@@ -5548,5 +5548,9 @@
     {
         "Error Code": "9000512",
         "Message": "A Hybrid SPA code can only be requested while redeeming a confidential client authorization code (a code issued to a web-type redirect URI). Do not request a hybrid code otherwise."
+    },
+    {
+        "Error Code": "9004351",
+        "Message": "Requested resource '{resource}' cannot accept cross-cloud tokens, where user belongs to the cloud '{nationalCloud}' and authentication request is to https://login.microsoftonline.com."}
     }
 ]
