@@ -5551,6 +5551,6 @@
     },
     {
         "Error Code": "9004351",
-        "Message": "Requested resource '{resource}' cannot accept cross-cloud tokens, where user belongs to the cloud '{nationalCloud}' and authentication request is to https://login.microsoftonline.com."}
+        "Message": "Requested resource '{resource}' cannot accept cross-cloud tokens, where user belongs to the cloud '{nationalCloud}' and authentication request is to https://login.microsoftonline.com."
     }
 ]
