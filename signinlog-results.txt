@@ -707,7 +707,7 @@ Error Code|||||Message|||||Remediation
 293002|||||Proof-of-possesion validation failed.|||||No Remediation Provided
 293003|||||RDP protocol is not supported for the requested client or resource application.|||||No Remediation Provided
 293004|||||The target-device identifier in the request {targetDeviceId} was not found in the tenant {tenantId}.|||||No Remediation Provided
-300030||||| ¿¿Extranet Lockout Error??
+300030||||| ¿¿Extranet Lock Out Error??
 392100|||||Unable to locate a user using the provided user information.|||||No Remediation Provided
 392101|||||User has not set up remote sign-in with the Authenticator app.|||||No Remediation Provided
 392102|||||The session tracking token has expired.|||||No Remediation Provided
