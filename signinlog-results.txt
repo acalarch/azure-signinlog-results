@@ -115,6 +115,7 @@ Error Code|||||Message|||||Remediation
 50071|||||Signout request has expired.|||||No Remediation Provided
 50072|||||Due to a configuration change made by your administrator, or because you moved to a new location, you must enroll in multi-factor authentication to access '{identifier}'.|||||The user was presented options to provide contact options so that they can do MFA.
 50074|||||Strong Authentication is required.|||||User needs to perform multi-factor authentication. There could be multiple things requiring multi-factor, e.g. Conditional Access policies, per-user enforcement, requested by client, among others.
+50075|||||The tenant '{tenant}' does not have security defaults enabled.
 50076|||||Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '{resource}'.|||||User needs to perform multi-factor authentication. There could be multiple things requiring multi-factor, e.g. Conditional Access policies, per-user enforcement, requested by client, among others.
 50077|||||The administrator created a conditional access policy that requires the authenticator to be used to provide GPS location.|||||No Remediation Provided
 50078|||||Presented multi-factor authentication has expired due to policies configured by your administrator, you must refresh your multi-factor authentication to access '{resource}'.|||||No Remediation Provided
